@@ -1,7 +1,7 @@
 ---
 title: "Text and Sentiment Analysis: Donald Trump Tweets"
 author: "Sarah Febres-Cordero"
-date: "2/11/2019"
+date: "2/13/2019"
 output: html_document
 ---
 
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-## Project Milestone 1 - Proposal
+# Project Milestone 1 - Proposal
 Your project proposal, Milestone 1, is due on Wednesday, 13 Februray 2018, by 5:00 pm EST.You will submit a PDF file. This document will contain two links; 1. a link to the Rmd file that created it in your GitHub repo, and 2. a link to the source of your original data. Please put your name on the first page of the document. The document will include the following information:
 ## 1. a link to the Rmd file that created it in your GitHub repo
 https://github.com/sarah-febres-cordero/BIG_DATA_PRJECT.git
@@ -19,19 +19,19 @@ https://github.com/sarah-febres-cordero/BIG_DATA_PRJECT.git
 ## 2. a link to the source of your original data.
 http/::twitter.com
 
-##Overview and Motivation:
+## Overview and Motivation:
 Why did you undertake this particular project? For the current project I am interested in learning the methods to datamine Twitter. 
-#What inspired you, what are your background and research interests that may have influenced your decision? 
+## What inspired you, what are your background and research interests that may have influenced your decision? 
 My inspiration for this project came from my classmate Daniel, I wanted to learn the methods but was having a hard time with the topic. He suggested investigating Trump tweets so that we would be entertained along with learning how to data mine Twitter. 
 
-#Project Objectives: What is the primary focal question that you are trying to answer? What would you like to learn and accomplish? 
+## Project Objectives: What is the primary focal question that you are trying to answer? What would you like to learn and accomplish? 
 So as I looked into data mining Trump tweets I found an interesting article about how it is hypothesized that Trump tweets from his android phone are written by Trump and those from his IPhone are written by staffers. I would like to see if I can repoduce this data and see if all of the current code works (in the comments it was noted that there were problems with some of the code) and I would like to add to this project by adding some word clouds and analyzing which set of tweets get more public engagement. There is currently a course on DataCamp to learn the methods used to do this project. I would like to follow the cours instructions to see if I can reproduce this work and add to it in some way. https://projects.datacamp.com/projects/511
 
-#Data Wrangling: 
+## Data Wrangling: 
 Do you anticipate that there will be extensive data cleaning / reshaping / extraction? Are there questions you will need to calculate in your data (e.g., perhaps you have height and weight, but not BMI)? How will you implement this particular data wrangling step? 
 For the project I would utilize data camp by engaging in the project using tidyverse, ggplot2, string manipulation with R with stringr, and sentiment analysis in R: The tidy way
 
-#Exploratory Analysis: 
+## Exploratory Analysis: 
 Which methods / visualizations are you planning to use to explore your tidy dataset?
 I am definetly interested in word clouds, I feel they are especially popular as a teaching tool in nursing classes. If I could learn the methods to generate data in this way I feel it will be useful later as an instructor.
 *I was curious to see how code would be used to form a cloud. I went online and found some code that I tried in R to see if I could generate a word cloud.
@@ -95,18 +95,18 @@ barplot(d[1:10,]$freq, las = 2, names.arg = d[1:10,]$word,
 
 
 
-#Analysis: 
+## Analysis: 
 How are you planning to analyze your data? _ Schedule, keeping in mind the due dates listed above for the intermediate and final milestones, make a plan to meet these deadlines. Write these in terms of weekly tasks / goals.
 The first task will be to get a developer account with Twitter, I have already been accepted and have started the process. I have read Dr. Higgind Blog posts to try and get as much of this account set up done by Feb. 13. I am having some troubles but plan to investigate this more this week. These are the steps outlined in Dr. Higgins' blog (http://melindahiggins2000.github.io/web2/blog/r%20codes/2014/12/08/GetDataFromTwitter.html)
-*set-up a developer account with Twitter;
-create a Twitter application to generate a key and token for your API;
-*write R code to use this API to pull tweets from Twitter on a given key word or words;
-*parse the tweets; and
-*then create a word cloud to illustrate a data mining visualization graphic.
-*I would like to have this step done by Feb 20 
+
+* set-up a developer account with Twitter;create a Twitter application to generate a key and token for your API;
+* write R code to use this API to pull tweets from Twitter on a given key word or words;
+* parse the tweets; and
+* then create a word cloud to illustrate a data mining visualization graphic.
+* I would like to have this step done by Feb 20 
 * I would like to have the reproduction of the DataCamp done by the end of February and the additional analysis done by March 20
 
-#As a ballpark, your proposal should be about 2-3 pages of text, along with shells of the tables and figures that you plan. You could even include some preliminary data acquisition / analysis steps.
+##  As a ballpark, your proposal should be about 2-3 pages of text, along with shells of the tables and figures that you plan. You could even include some preliminary data acquisition / analysis steps.
 I have no preliminary data as I have not been able to complete my account set up as of yet. 
 
 
